@@ -6,6 +6,8 @@
 
 ![plot](./img/blog.png | width=100)
 
+<img src="./img/blog.png" width="48">
+
 **Model Overfitting vs Underfitting**
 
  - soon ...
