@@ -12,6 +12,8 @@
 
 **Concept drift vs Model drift**
 
+
+
 **Gradient Exploding vs Gradient Vanishing**
 
 - soon  ...
@@ -34,10 +36,12 @@
 
 - soon ....
 
+**SMOTE Oversampling**
+
 
 **plobplot and lmplot**
 
-**SMOTE Oversampling**
+
 
 **Clustering**
   - Spectral clustering
