@@ -68,7 +68,7 @@
  
  **Statistical Concepts**
  
- - Significant test
+ - Significance test
  - AB Testing
  - ANOVA
  - Information gain
