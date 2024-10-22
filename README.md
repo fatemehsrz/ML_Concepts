@@ -5,17 +5,17 @@
 - A machine learning model is calibrated if it produces calibrated probabilities. More specifically, probabilities are calibrated where a prediction of a class with confidence p is correct 100*p percent of the time. Consider this example: if a model trained to classify images as either containing a cat or not, is presented with 10 pictures, and outputs the probability of there being a cat as 0.6 (or 60%) for every image, we expect 6 cat images to be present in the set. With calibrated probabilities, we might directly interpret the produced numbers as the confidence of the model. When encountering easy samples from the dataset, for which the model is rarely wrong, we expect the model to produce values close to 1. For harder ones, we expect the number to be lower, reflecting the proportion of misclassified examples in such sets. [example](https://www.tidyverse.org/blog/2022/11/model-calibration/).
 
 
-**Model Over-fitting vs Under-fitting**
+**Model Overfitting vs Underfitting**
 
 - . ...
 
-**Concept drift vs model drift**
+**Concept drift vs Model drift**
 
 **Gradient Exploding vs Gradient Vanishing**
 
 - ...
 
-**Momentum in neural networks**
+**Momentum in Neural Networks**
 
 **Xavier Initialization vs He Initialization**
 
@@ -44,7 +44,7 @@
 
 **Likelihood vs probability**
 
-**Prior, Posterior and Likelihood**
+**Prior Probability vs Posterior Probability vs Likelihood**
 
 **SVD vs Eigen Decomposition**
 
@@ -65,7 +65,7 @@
  
  **Convex vs non-Convex Optimization Problem**
  
- **Statistics Concepts**
+ **Statistical Concepts**
  
  - Significant test
  - AB Testing
@@ -77,6 +77,7 @@
  
   - Bernoulli Distribution
   - Binomial Distribution
+  - Multinomial distribution
   - Poisson Distribution
   - Chi-squared Distribution
   - Gamma distribution
