@@ -1,6 +1,92 @@
-# ML Concepts
+# Machine Learning Essential Concepts
 
 **Model Calibration**
 
-- The goal of model calibration is to ensure that the estimated class probabilities are consistent with what would naturally occur. [example](https://www.tidyverse.org/blog/2022/11/model-calibration/).
+- A machine learning model is calibrated if it produces calibrated probabilities. More specifically, probabilities are calibrated where a prediction of a class with confidence p is correct 100*p percent of the time. Consider this example: if a model trained to classify images as either containing a cat or not, is presented with 10 pictures, and outputs the probability of there being a cat as 0.6 (or 60%) for every image, we expect 6 cat images to be present in the set. With calibrated probabilities, we might directly interpret the produced numbers as the confidence of the model. When encountering easy samples from the dataset, for which the model is rarely wrong, we expect the model to produce values close to 1. For harder ones, we expect the number to be lower, reflecting the proportion of misclassified examples in such sets. [example](https://www.tidyverse.org/blog/2022/11/model-calibration/).
+
+
+**Model Over-fitting vs Under-fitting**
+
+- . ...
+
+**Concept drift vs model drift**
+
+**Gradient Exploding vs Gradient Vanishing**
+
+- ...
+
+**Momentum in neural networks**
+
+**Xavier Initialization vs He Initialization**
+
+**Model Hyper-parameters Optimization**
+ - Grid Search
+ - Random Search
+ - Bayesian Search
+
+
+**Data Interpolation**
+
+- ...
+
+**Data Augmentation**
+
+- ....
+
+
+**plobplot and lmplot**
+
+**SMOTE Oversampling**
+
+**Clustering**
+  - Spectral clustering
+  - Hierarchical clustering
+
+**Likelihood vs probability**
+
+**Prior, Posterior and Likelihood**
+
+**SVD vs Eigen Decomposition**
+
+**Loss Functions**
+
+  - Hinge loss
+  - KL loss
+  - Cross entropy loss
+  - Huber loss
+ 
+ 
+ **Boosting vs Bagging**
+ 
+ **XGBoost vs Catboost**
+ 
+ 
+ **High Bias vs High Variance**
+ 
+ **Convex vs non-Convex Optimization Problem**
+ 
+ **Statistics Concepts**
+ 
+ - Significant test
+ - AB Testing
+ - ANOVA
+ - Information gain
+ - Surprise value and Entropy value
+ 
+ **Distributions**
+ 
+  - Bernoulli Distribution
+  - Binomial Distribution
+  - Poisson Distribution
+  - Chi-squared Distribution
+  - Gamma distribution
+  
+  
+  
+ 
+ 
+ 
+
+
+
 
