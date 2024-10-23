@@ -7,7 +7,7 @@
 
 
 
-<img src="./img/blog.png" width="400">
+<img src="./img/blog.png" width="430">
 
 **Model Overfitting vs Underfitting**
 
@@ -31,7 +31,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
  
  
  
- <img src="./img/fit.png" width="650">
+ <img src="./img/fit.png" width="680">
 
 **Concept drift vs Model drift**
 
