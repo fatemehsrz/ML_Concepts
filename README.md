@@ -11,7 +11,7 @@
 
 **Model Overfitting vs Underfitting**
 
- - Overfitting occurs when the model is too complex and fits the training data too closely. This leads to poor generalization.
+ - Overfitting occurs when a model is too complex and fits the training data too closely. This leads to poor generalization.
 Underfitting occurs when a machine learning model is too simple leading to low model accuracy and poor performance. 
 
  - How to resolve overfitting:
