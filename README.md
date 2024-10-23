@@ -13,6 +13,23 @@
 
  - Overfitting occurs when the model is too complex and fits the training data too closely. This leads to poor generalization.
 Underfitting occurs when a machine learning model is too simple leading to low model accuracy and poor performance. 
+
+ - How to resolve overfitting:
+   - Adding more data samples
+   - Adding noise to the data
+   - Data augmentation
+   - Feature selection
+   - Cross Validation
+   - Model regularization (loss, or adding dropouts)
+   
+   
+ - How to resolve underfitting:
+   - Add more features
+   - Increase model complexity
+   - Data de-noising
+   - Running more training epochs 
+ 
+ 
  
  <img src="./img/fit.png" width="700">
 
