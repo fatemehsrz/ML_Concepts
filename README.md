@@ -24,7 +24,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
    
    
  - How to resolve underfitting:
-   - Add more features
+   - Add more features (e.g. feature engineering)
    - Increase model complexity
    - Data de-noising
    - Running more training epochs 
