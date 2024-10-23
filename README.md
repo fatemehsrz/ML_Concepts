@@ -9,6 +9,8 @@
 **Model Overfitting vs Underfitting**
 
  - soon ...
+ 
+ <img src="./img/fit.png" width="650">
 
 **Concept drift vs Model drift**
 
