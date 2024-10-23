@@ -3,7 +3,7 @@
 **Model Calibration**
 
 - A calibrated model produces calibrated probabilities which means a prediction of a class with confidence p is correct 100*p percent of the time.
- It is important to know which percentage of samples that model predicted to be positive (with p probability) are actually positive in the dataset. With a well calibrated model we expect that p of the samples that got a predicted probability of around p to be positive. Model calibration measures how well the model prediction is aligned with true distribution of the data. [More here](https://www.youtube.com/watch?v=NDY2fH1FitQ).
+ It is important to know which percentage of samples that model predicted to be positive (with p probability) are actually positive in the dataset. With a well calibrated model, we expect that p of the samples that got a predicted probability of around p to be positive. Model calibration measures how well the model prediction is aligned with true distribution of the data. [More here](https://www.youtube.com/watch?v=NDY2fH1FitQ).
 
 
 
