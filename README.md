@@ -12,7 +12,7 @@
 
 **Concept drift vs Model drift**
 
-
+- soon  ...
 
 **Gradient Exploding vs Gradient Vanishing**
 
@@ -20,7 +20,12 @@
 
 **Momentum in Neural Networks**
 
+- soon  ...
+
 **Xavier Initialization vs He Initialization**
+
+- soon  ...
+**L1 vs L2 Regularization**
 
 **Model Hyper-parameters Optimization**
  - Grid Search
@@ -41,7 +46,7 @@
 
 **plobplot and lmplot**
 
-
+- soon  ...
 
 **Clustering**
   - Spectral clustering
@@ -49,9 +54,15 @@
 
 **Likelihood vs probability**
 
+- soon  ...
+
 **Prior Probability vs Posterior Probability vs Likelihood**
 
+- soon  ...
+
 **SVD vs Eigen Decomposition**
+
+- soon  ...
 
 **Loss Functions**
 
@@ -63,12 +74,17 @@
  
  **Boosting vs Bagging**
  
+ - soon  ...
+ 
  **XGBoost vs Catboost**
+ - soon  ...
  
  
  **High Bias vs High Variance**
+ - soon  ...
  
  **Convex vs non-Convex Optimization Problem**
+ - soon  ...
  
  **Statistical Concepts**
  
