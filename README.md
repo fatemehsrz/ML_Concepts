@@ -23,9 +23,12 @@
 - soon  ...
 
 **Xavier Initialization vs He Initialization**
+ - soon  ...
 
-- soon  ...
+
 **L1 vs L2 Regularization**
+
+ - soon  ...
 
 **Model Hyper-parameters Optimization**
  - Grid Search
