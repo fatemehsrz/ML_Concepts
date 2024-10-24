@@ -61,7 +61,9 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
  - ARIMA
  - [BiLSTM](https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm)
- <img src="./img/lstm.png" width="430">
+ 
+    <img src="./img/lstm.png" width="650">
+ 
  - CNN-LSTM
  - Variational autoencoder
  - Temporal Fusion Transformers 
