@@ -78,14 +78,14 @@ Underfitting occurs when a machine learning model is too simple leading to low m
  - Random Search
  - Bayesian Search
  
-  <img src="./img/grid.png" width="650">
+  <img src="./img/grid.jpg" width="650">
 
 **Time Series Models**
 
  - ARIMA
  - [BiLSTM](https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm)
  
-    <img src="./img/lstm.png" width="650">
+    <img src="./img/lstm.jpg" width="650">
  
  - CNN-LSTM
  - Variational autoencoder
