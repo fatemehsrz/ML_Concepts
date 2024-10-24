@@ -34,10 +34,10 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 **Concept drift vs Model drift**
 
-- Data drift is the changes over time in the statistical properties and characteristics of the input data. Specifically in production, it occurs as the new incomming data deviates from the original data the model was trained on or earlier production data. This shift in input data distribution can lead to a decline in the model's performance and must be detected. Concept drift relates to changes occur over time in the relationships between input features and target variables. It can cause a decay in the model quality and lead to a poor estimation on target values. [More here ...](https://www.evidentlyai.com/ml-in-production/data-drift)
+- Data drift is the changes over time in the statistical properties of the input data. It occurs in production  as the new incoming data deviates from the original data the model was trained on or earlier production data. This shift in input data distribution can lead to a decline in the model's performance and must be detected. Concept drift relates to changes occurring over time in the relationships between input and target variables. It can cause a decay in the model quality and lead to a poor estimation on target values. [More here ...](https://www.evidentlyai.com/ml-in-production/data-drift) 
 
    
-   <img src="./img/drft.png" width="680">
+   <img src="./img/drft.png" width="600">
 
 **Gradient Exploding vs Gradient Vanishing**
 
