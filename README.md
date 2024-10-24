@@ -3,7 +3,7 @@
 **Model Calibration**
 
 - A calibrated model produces calibrated probabilities which means a prediction of a class with confidence p is correct 100*p percent of the time.
- It is important to know which percentage of samples that model predicted to be positive (with p probability) are actually positive in the dataset. With a well calibrated model, we expect that p of the samples that got a predicted probability of around p to be positive. Model calibration measures how well the model prediction is aligned with true distribution of the data. [More here](https://wttech.blog/blog/2021/a-guide-to-model-calibration/).
+ It is important to know which percentage of samples that model predicted to be positive (with p probability) are actually positive in the dataset. With a well calibrated model, we expect that p of the samples that got a predicted probability of around p to be positive. Model calibration measures how well the model prediction is aligned with true distribution of the data. [More here ...](https://wttech.blog/blog/2021/a-guide-to-model-calibration/).
 
 
 <img src="./img/blog.png" width="430">
@@ -11,7 +11,7 @@
 **Model Overfitting vs Underfitting**
 
  - Overfitting occurs when a model is too complex and fits the training data too closely. This leads to poor generalization.
-Underfitting occurs when a machine learning model is too simple leading to low model accuracy and poor performance. [More here](https://databasecamp.de/en/ml/underfitting-en)
+Underfitting occurs when a machine learning model is too simple leading to low model accuracy and poor performance. [More here ...](https://databasecamp.de/en/ml/underfitting-en)
 
  - How to resolve overfitting:
    - Adding more data samples
@@ -34,7 +34,9 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 **Concept drift vs Model drift**
 
-- soon  ...
+- Data drift is the changes over time in the statistical properties and characteristics of the input data. Specifically in production, it occurs as the new incomming data deviates from the original data the model was trained on or earlier production data. This shift in input data distribution can lead to a decline in the model's performance and must be detected. Concept drift relates to changes occur over time in the relationships between input features and target variables. It can cause a decay in the model quality and lead to a poor estimation on target values. [More here ...](https://www.evidentlyai.com/ml-in-production/data-drift)
+
+   [drft](https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm)
 
 **Gradient Exploding vs Gradient Vanishing**
 
