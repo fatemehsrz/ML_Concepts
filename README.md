@@ -89,6 +89,11 @@ Underfitting occurs when a machine learning model is too simple leading to low m
  - Fourier Transform
  
  
+ **Dependent and Independent Variables**
+ - The input variables are known as the independent variables, as each variable must describe a distinct aspect of the data which is not available in others.
+ - The target variable is known as a dependent variable as the changes in input values will affect the target value.  
+ 
+ 
 **Data Interpolation**
 
 - soon ...
