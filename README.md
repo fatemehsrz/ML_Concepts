@@ -63,7 +63,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 - soon  ...
 
-<img src="./img/grd1.png" width="650">
+<img src="./img/grd1.jpg" width="650">
 
 **Xavier Initialization vs He Initialization**
  - soon  ...
