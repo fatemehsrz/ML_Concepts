@@ -41,7 +41,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 **Gradient Exploding vs Gradient Vanishing**
 
-- 
+ - mm 
 
 **Momentum in Neural Networks**
 
