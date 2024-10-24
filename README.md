@@ -41,7 +41,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 **Gradient Exploding vs Gradient Vanishing**
 
- - Gradient vanishing occurs when weights in a model become extremely small (close to zero) as they are backpropagated through the layers of neural networks. It means the model's weights are not updated effectively and cannot learn the complex pattern in the data. How to resolve gradient vanishing
+ - Gradient vanishing occurs when model's weights become extremely small (close to zero) as they are backpropagated through the layers of neural networks. It means the model's weights are not updated effectively and cannot learn the complex pattern in the data. How to resolve gradient vanishing
  
    - Apply different activation functions (e.g. tanh, Sigmoid, ReLU, Maxout,  ELU, SoftPlus, softsign, seLU)
    - Try different weight initialization (Xavier or He initializer)
@@ -49,7 +49,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
    - Tune learning rate from 1-e5 to 0.1
  
  
-  - Gradient exploding  occurs when the loss value grows exponential during training. It cause the large update to the weights and weights become NaN or infinity. How to resolve gradient exploding
+ - Gradient exploding  occurs when the loss value grows exponentially during training. It cause the large update to the weights and weights become NaN or infinity. How to resolve gradient exploding
  
    - Use batch normalization
    - Decrease number of layers in the model
