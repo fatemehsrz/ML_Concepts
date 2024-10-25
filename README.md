@@ -1,6 +1,6 @@
 # Machine Learning Essential Concepts
 
-**Model Calibration**
+## Model Calibration
 
 - A calibrated model produces calibrated probabilities which means a prediction of a class with confidence p is correct 100*p percent of the time.
  It is important to know which percentage of samples that model predicted to be positive (with p probability) are actually positive in the dataset. With a well calibrated model, we expect that p of the samples that got a predicted probability of around p to be positive. Model calibration measures how well the model prediction is aligned with true distribution of the data. [More here ...](https://wttech.blog/blog/2021/a-guide-to-model-calibration/).
@@ -8,7 +8,7 @@
 
 <img src="./img/blog.png" width="430">
 
-**Model Overfitting vs Underfitting**
+## Model Overfitting vs Underfitting
 
  - Overfitting occurs when a model is too complex and fits the training data too closely. This leads to poor generalization.
 Underfitting occurs when a machine learning model is too simple leading to low model accuracy and poor performance. [More here ...](https://databasecamp.de/en/ml/underfitting-en)
@@ -32,14 +32,14 @@ Underfitting occurs when a machine learning model is too simple leading to low m
  
  <img src="./img/fit.png" width="680">
 
-**Data Drift vs Concept Drift**
+## Data Drift vs Concept Drift
 
 - Data drift is the changes over time in the statistical properties of the input data. It occurs in production  as the new incoming data deviates from the original data the model was trained on or earlier production data. This shift in input data distribution can lead to a decline in the model's performance and must be detected. Concept drift relates to changes occurring over time in the relationships between input and target variables. It can cause a decay in the model quality and lead to a poor estimation on target values. [More here ...](https://www.evidentlyai.com/ml-in-production/data-drift) 
 
    
    <img src="./img/drft.png" width="600">
 
-**Gradient Exploding vs Gradient Vanishing**
+## Gradient Exploding vs Gradient Vanishing
 
  - Gradient vanishing occurs when model's weights become extremely small (close to zero) as they are backpropagated through the layers of neural networks. It means the model's weights are not updated effectively and cannot learn the complex pattern in the data. How to resolve gradient vanishing
  
@@ -59,7 +59,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
  
   <img src="./img/gr2.png" width="700">
 
-**Momentum in Neural Networks**
+## Momentum in Neural Networks
 
 - During training, gradient descent does not exactly provide the direction in which the loss function is headed i.e. the derivative of the loss function. Therefore, the loss value might not always be headed in the optimal direction and can easily gets stuck in a local minima. To avoid this situation, we use a momentum term in the objective function, which is a value between `0` and `1` that increases the size of the steps taken towards the minimum by trying to jump from a local minima. If the momentum term is large then the learning rate should be kept smaller. A large value of momentum also means that the convergence will happen fast. But if both the momentum and learning rate are kept at large values, then you might skip the minimum with a huge step. A small value of momentum cannot reliably avoid local minima, and can also slow down the training of the system. Momentum also helps in smoothing out the variations, if the gradient keeps changing direction. A right value of momentum can be either learned by hit and trial or through cross-validation. [More here](https://medium.com/analytics-vidhya/momentum-a-simple-yet-efficient-optimizing-technique-ef76834e4423)
 
@@ -67,15 +67,15 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 ## Xavier Initialization vs He Initialization
 
- - Xavier/Glorot initialization is designed to address the problem of vanishing or exploding gradients during training. With a random initialization we do not have any assumption about the data, so the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let’s consider a linear neuron: $y = w_1 x_1 + w_2 x_2 + ... + w_N x_N + b$ 
+ - Xavier/Glorot initialization is designed to address the problem of vanishing or exploding gradients during training. With a random initialization we do not have any assumption about the data, so the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let’s consider a linear neuron: $y = w_1 x_1 + w_2 x_2 + ... + w_N x_N + b$ <br>
  With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for $x$ and $y$. This initialization process is known as Xavier initialization.
 
 
-**L1 vs L2 Regularization**
+## L1 vs L2 Regularization
 
  - soon  ...
 
-**Model Hyper-parameters Optimization**
+## Model Hyper-parameters Optimization**
  - Grid Search
  - Random Search
  - Bayesian Search
