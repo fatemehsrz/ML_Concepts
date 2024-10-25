@@ -67,44 +67,11 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 **Xavier Initialization vs He Initialization**
 
-Xavier/Glorot initialization is designed to address the problem of vanishing or exploding gradients during training. It sets the initial weights in a way that helps stabilize the training process. With the random initialization we do not know anything about the data, so we are not sure how to assign the weights that would work in that particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let’s consider a linear neuron:
+ - Xavier/Glorot initialization is designed to address the problem of vanishing or exploding gradients during training. With a random initialization we do have any  assumption about the data, so the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let’s consider a linear neuron:
 
-$y = w_1 x_1 + w_2 x_2 + ... + w_{NxN} + b$
+$y = w_1 x_1 + w_2 x_2 + ... + w_N x_N + b$
 
-With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for x and y. This initialization process is known as Xavier initialization. 
-
-
-Indeed, we want the variance to remain the same as we pass through each layer. Let’s go ahead and compute the variance of y:
-
-$var(y) = var(w1x1 + w2x2 + ... + wNxN + b)$
-
-Let’s compute the variance of the terms inside the parentheses on the right hand side of the above equation. If you consider a general term, we have:
-
-$var(wixi) = E(xi)2var(wi) + E(wi)2var(xi) + var(wi)var(xi)$
-
-Here, E() stands for expectation of a given variable, which basically represents the mean value. We have assumed that the inputs and weights are coming from a Gaussian distribution of zero mean. Hence the “E()” term vanishes and we get:
-
-$var(wixi) = var(wi)var(xi)$
-
-Note that ‘b’ is a constant and has zero variance, so it will vanish. Let’s substitute in the original equation:
-
-$var(y) = var(w1)var(x1) + ... + var(wN)var(xN)$
-
-Since they are all identically distributed, we can write:
-
-$var(y) = N * var(wi) * var(xi)$
-
-So if we want the variance of y to be the same as x, then the term `N * var(wi)` should be equal to `1`. Hence:
-
-$N * var(wi) = 1$
-$var(wi) = 1/N$
-
-Now we arrived at the Xavier initialization formula. We need to pick the weights from a Gaussian distribution with zero mean and a variance of `1/N`, where `N` specifies the number of input neurons. So the formula becomes:
-
-$var(wi) = 1/Navg $
-where $Navg = (Nin + Nout)/2$
-
-The reason they do this is to preserve the backpropagated signal as well. However, it is more computationally complex to implement. Hence we only take the number of input neurons during practical implementation.
+With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for $x$ and $y$. This initialization process is known as Xavier initialization.
 
 
 **L1 vs L2 Regularization**
