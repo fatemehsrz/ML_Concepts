@@ -69,7 +69,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 Xavier/Glorot initialization is designed to address the problem of vanishing or exploding gradients during training. It sets the initial weights in a way that helps stabilize the training process. With the random initialization we do not know anything about the data, so we are not sure how to assign the weights that would work in that particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let’s consider a linear neuron:
 
-$y = w1x1 + w2x2 + ... + wNxN + b$
+$y = w_1 x_1 + w_2 x_2 + ... + w_{NxN} + b$
 
 With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for x and y. This initialization process is known as Xavier initialization. 
 
