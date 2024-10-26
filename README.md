@@ -138,27 +138,27 @@ Xavier initialization is more effective for models with sigmoid activation funct
 ## SMOTE Oversampling
 
 
-**plobplot and lmplot**
+## plobplot and lmplot
 
 - soon  ...
 
-**Clustering**
+## Clustering
   - Spectral clustering
   - Hierarchical clustering
 
-**Likelihood vs probability**
+## Likelihood vs probability
 
 - soon  ...
 
-**Prior Probability vs Posterior Probability vs Likelihood**
+## Prior Probability vs Posterior Probability vs Likelihood
 
 - soon  ...
 
-**SVD vs Eigen Decomposition**
+## SVD vs Eigen Decomposition
 
 - soon  ...
 
-**Loss Functions**
+## Loss Functions
 
   - Hinge loss
   - KL loss
@@ -166,21 +166,21 @@ Xavier initialization is more effective for models with sigmoid activation funct
   - Huber loss
  
  
- **Boosting vs Bagging**
+## Boosting vs Bagging
  
  - soon  ...
  
- **XGBoost vs Catboost**
+## XGBoost vs Catboost
  - soon  ...
  
  
- **High Bias vs High Variance**
+## High Bias vs High Variance
  - soon  ...
  
- **Convex vs non-Convex Optimization Problem**
+## Convex vs non-Convex Optimization Problem
  - soon  ...
  
- **Statistical Concepts**
+## Statistical Concepts
  
  - Significance test
  - AB Testing
@@ -188,7 +188,7 @@ Xavier initialization is more effective for models with sigmoid activation funct
  - Information gain
  - Surprise value and Entropy value
  
- **Distributions**
+## Distributions
  
   - Bernoulli Distribution
   - Binomial Distribution
