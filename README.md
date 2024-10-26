@@ -67,8 +67,18 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 ## Xavier Initialization vs He Initialization
 
- - Xavier/Glorot initialization is designed to address the problem of vanishing or exploding gradients during training. With a random initialization we do not have any assumption about the data, so the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let’s consider a linear neuron: $y = w_1 x_1 + w_2 x_2 + ... + w_N x_N + b$ <br>
- With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for $x$ and $y$. This initialization process is known as Xavier initialization. [More here](https://prateekvjoshi.com/2016/03/29/understanding-xavier-initialization-in-deep-neural-networks/)
+ - Xavier/Glorot initialization is designed to address the problem of vanishing or exploding gradients during training. With a random initialization we do not have any assumption about the data, so the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let’s consider a linear neuron: $y = w_1 x_1 + w_2 x_2 + ... + w_n x_n + b$ <br>
+ With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for $x$ and $y$. This initialization process is known as Xavier initialization.
+ Let us denote input for each neroun $fan_{input}$ and the output $fan_{output}$, Xavier normal tries to select the weights from normal distribution as
+ 
+    $W_{ij}\sim \mathcal{N}(\mu,\,\sigma^{2})\$
+    $\sigma= \sqrt{\frac{f}{f} $
+ 
+
+ 
+ 
+ 
+  [More here](https://prateekvjoshi.com/2016/03/29/understanding-xavier-initialization-in-deep-neural-networks/)
 
 
 ## L1 vs L2 Regularization
