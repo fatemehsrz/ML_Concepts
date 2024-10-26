@@ -100,7 +100,7 @@ Xavier initialization is more effective for models with sigmoid activation funct
 
  - soon  ...
 
-## Model Hyper-parameters Optimization
+## Model Hyperparameter  Optimization
  - Grid Search
  - Random Search
  - [Bayesian Search](http://minjeancho.com/bayesian_search/bayesian_search.html)
