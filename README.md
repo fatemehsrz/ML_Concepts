@@ -76,13 +76,13 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for $x$ and $y$. This initialization process is known as Xavier initialization. Let $fan_{in}$ denote the inputs for each neroun  and  $fan_{out}$ the output, Xavier normal tries to select the weights from normal distribution as 
   
 
-``` math
-\begin{split}
-  w_{ij} \sim \mathcal{N} ( 0 \, \sigma)  \\
-  \sigma= \sqrt{\frac{2}{fan_{in} an_{out}}
-\end{split}
+$$
+\begin{aligned}
+ AR(p): Y_i &= c + \epsilon_i + \phi_i Y_{i-1} \dots \\
+ Y_{i} &= c + \phi_i Y_{i-1} \dots
+\end{aligned}
+$$
 
-```
  
   [More here](https://prateekvjoshi.com/2016/03/29/understanding-xavier-initialization-in-deep-neural-networks/)
 
