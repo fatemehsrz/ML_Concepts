@@ -137,6 +137,7 @@ Xavier initialization is more effective for models with sigmoid activation funct
 
 ## SMOTE Oversampling
 
+ - soon  ...
 
 ## plobplot and lmplot
 
