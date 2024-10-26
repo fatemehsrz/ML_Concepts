@@ -81,7 +81,7 @@ With each passing layer, we want the variance to remain the same. This helps us 
 $$
 \begin{aligned}
  w_{ij} \sim \mathcal{N} ( 0 \, \sigma) \\
- \sigma= \sqrt{ \frac{2}{x} } \\
+ \sigma= \sqrt{ \frac{2}{fan_{in}} } \\
 \end{aligned}
 $$
 
@@ -92,7 +92,7 @@ $$
 ## L1 vs L2 Regularization
 
     $w_{ij} \sim \mathcal{N} ( 0 \, \sigma) $  <br> 
-      $\sigma= \sqrt{\frac{2}{fan_{in} an_{out}} $ 
+      $\sigma= \sqrt{\frac{2}{fan_{in} fan_{out}} $ 
 
  - soon  ...
 
