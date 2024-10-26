@@ -6,7 +6,7 @@
  It is important to know which percentage of samples that model predicted to be positive (with p probability) are actually positive in the dataset. With a well calibrated model, we expect that p of the samples that got a predicted probability of around p to be positive. Model calibration measures how well the model prediction is aligned with true distribution of the data. [More here ...](https://wttech.blog/blog/2021/a-guide-to-model-calibration/).
 
 
-<img src="./img/blog.png" width="430">
+    <img src="./img/blog.png" width="430">
 
 ## Model Overfitting vs Underfitting
 
@@ -37,7 +37,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 - Data drift is the changes over time in the statistical properties of the input data. It occurs in production  as the new incoming data deviates from the original data the model was trained on or earlier production data. This shift in input data distribution can lead to a decline in the model's performance and must be detected. Concept drift relates to changes occurring over time in the relationships between input and target variables. It can cause a decay in the model quality and lead to a poor estimation on target values. [More here ...](https://www.evidentlyai.com/ml-in-production/data-drift) 
 
    
-   <img src="./img/drft.png" width="600">
+    <img src="./img/drft.png" width="600">
 
 ## Gradient Exploding vs Gradient Vanishing
 
@@ -57,13 +57,13 @@ Underfitting occurs when a machine learning model is too simple leading to low m
    - Apply gradient clipping which restricts weights in a certain range 
    - [More here ...](https://aiml.com/what-do-you-mean-by-vanishing-and-exploding-gradient-problem-and-how-are-they-typically-addressed/)
  
-  <img src="./img/gr2.png" width="700">
+    <img src="./img/gr2.png" width="700">
 
 ## Momentum in Neural Networks
 
 - During training, gradient descent does not exactly provide the direction in which the loss function is headed i.e. the derivative of the loss function. Therefore, the loss value might not always be headed in the optimal direction and can easily gets stuck in a local minima. To avoid this situation, we use a momentum term in the objective function, which is a value between `0` and `1` that increases the size of the steps taken towards the minimum by trying to jump from a local minima. If the momentum term is large then the learning rate should be kept smaller. A large value of momentum also means that the convergence will happen fast. But if both the momentum and learning rate are kept at large values, then you might skip the minimum with a huge step. A small value of momentum cannot reliably avoid local minima, and can also slow down the training of the system. Momentum also helps in smoothing out the variations, if the gradient keeps changing direction. A right value of momentum can be either learned by hit and trial or through cross-validation. [More here](https://medium.com/analytics-vidhya/momentum-a-simple-yet-efficient-optimizing-technique-ef76834e4423)
 
-<img src="./img/grd1.jpg" width="650">
+   <img src="./img/grd1.jpg" width="650">
 
 ## Xavier Initialization vs He Initialization
 
