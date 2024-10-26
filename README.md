@@ -81,7 +81,7 @@ With each passing layer, we want the variance to remain the same. This helps us 
 $$
 \begin{aligned}
  w_{ij} \sim \mathcal{N} ( 0 \, \sigma) \\
- \sigma= \sqrt{ \frac{2}{fan_{in}} } \\
+ \sigma= \sqrt{ \frac{2}{fan_{in}  fan_{out} } } \\
 \end{aligned}
 $$
 
