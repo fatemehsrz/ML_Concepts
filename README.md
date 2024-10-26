@@ -98,9 +98,6 @@ Xavier initialization is more effective for models with sigmoid activation funct
 
 ## L1 vs L2 Regularization
 
-    $w_{ij} \sim \mathcal{N} ( 0 \, \sigma) $  <br> 
-      $\sigma= \sqrt{\frac{2}{fan_{in} fan_{out}} $ 
-
  - soon  ...
 
 ## Model Hyper-parameters Optimization
