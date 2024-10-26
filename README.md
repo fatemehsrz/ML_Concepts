@@ -67,7 +67,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 ## Xavier Initialization vs He Initialization
 
- Xavier/Glorot initialization is designed to aliviate the problem of vanishing or exploding gradients during training. With a random initialization we do not have any assumption about the data, so the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let’s consider a linear neuron:
+Xavier/Glorot initialization is designed to alleviate the problem of vanishing or exploding gradients during training. With a random initialization, the model does not have any assumption about the data, therefore the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let us consider a linear neuron:
  
 $$
 \begin{aligned}
