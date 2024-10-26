@@ -105,7 +105,7 @@ Xavier initialization is more effective for models with sigmoid activation funct
  - Random Search
  - Bayesian Search
  
-  <img src="./img/grid.jpg" width="650">
+  <img src="./img/bsy.jpg" width="650">
 
 ## Time Series Models
 
