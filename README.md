@@ -68,11 +68,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 ## Xavier Initialization vs He Initialization
 
  - Xavier/Glorot initialization is designed to address the problem of vanishing or exploding gradients during training. With a random initialization we do not have any assumption about the data, so the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let’s consider a linear neuron:
-  $y = w_1 x_1 + w_2 x_2 + ... + w_n x_n + b$ <br>  With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for $x$ and $y$. This initialization process is known as Xavier initialization. Let $fan_{in}$ denote the inputs for each neroun  and  $fan_{out}$ the output, Xavier normal tries to select the weights from normal distribution as <br>
-     $w_{ij} \sim \mathcal{N} ( 0 \, \sigma) $  <br> 
-      $\sigma= \sqrt{\frac{2}{fan_{in} an_{out}} $ 
- 
-
+  $y = w_1 x_1 + w_2 x_2 + ... + w_n x_n + b$ <br>  With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for $x$ and $y$. This initialization process is known as Xavier initialization. Let $fan_{in}$ denote the inputs for each neroun  and  $fan_{out}$ the output, Xavier normal tries to select the weights from normal distribution as 
  $$
 \begin{split}
   w_{ij} \sim \mathcal{N} ( 0 \, \sigma)  \\
@@ -86,16 +82,19 @@ $$
 
 ## L1 vs L2 Regularization
 
+    $w_{ij} \sim \mathcal{N} ( 0 \, \sigma) $  <br> 
+      $\sigma= \sqrt{\frac{2}{fan_{in} an_{out}} $ 
+
  - soon  ...
 
-## Model Hyper-parameters Optimization**
+## Model Hyper-parameters Optimization
  - Grid Search
  - Random Search
  - Bayesian Search
  
   <img src="./img/grid.jpg" width="650">
 
-**Time Series Models**
+## Time Series Models
 
  - ARIMA
  - [BiLSTM](https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm)
@@ -108,22 +107,22 @@ $$
  - Fourier Transform
  
  
- **Dependent vs Independent Variables**
+## Dependent vs Independent Variables
  - The input variables are known as the independent variables, as each variable must describe a distinct aspect of the data which is not available in others.
  - The target variable is known as a dependent variable as the changes in input values will affect the target value.  
  
      <img src="./img/cor2.png" width="650">
  
  
-**Data Interpolation**
+## Data Interpolation
 
 - soon ...
 
-**Data Augmentation**
+## Data Augmentation
 
 - soon ....
 
-**SMOTE Oversampling**
+## SMOTE Oversampling
 
 
 **plobplot and lmplot**
