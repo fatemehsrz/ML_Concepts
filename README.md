@@ -67,7 +67,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 ## Xavier Initialization vs He Initialization
 
-Xavier/Glorot initialization is designed to alleviate the problem of vanishing or exploding gradients during training. With a random initialization, the model does not have any assumption about the data, therefore the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let us consider a linear neuron:
+- Xavier/Glorot initialization is designed to alleviate the problem of vanishing or exploding gradients during training. With a random initialization, the model does not have any assumption about the data, therefore the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let us consider a linear neuron:
  
 $$
 \begin{aligned}
@@ -78,7 +78,7 @@ $$
 
 
 
-With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for $x$ and $y$. This initialization process is known as Xavier initialization. Let $fan_{in}$ denote the inputs for each neuron  and  $fan_{out}$ the output, Xavier normal tries to select the weights from normal distribution as 
+  With each passing layer, we want the variance to remain the same. This helps us keep the signal from exploding to a high value or vanishing to zero. In other words, we need to initialize the weights in such a way that the variance remains the same for $x$ and $y$. This initialization process is known as Xavier initialization. Let $fan_{in}$ denote the inputs for each neuron  and  $fan_{out}$ the output, Xavier normal tries to select the weights from normal distribution as 
 
 $$
 \begin{aligned}
@@ -93,7 +93,7 @@ $$
 $$
 
  
-  [More here](https://prateekvjoshi.com/2016/03/29/understanding-xavier-initialization-in-deep-neural-networks/)
+  Xavier initialization is more effective for models with sigmoid activation functions. [More here](https://prateekvjoshi.com/2016/03/29/understanding-xavier-initialization-in-deep-neural-networks/)
 
 
 ## L1 vs L2 Regularization
