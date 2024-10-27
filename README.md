@@ -198,7 +198,7 @@ Xavier initialization is more effective for models with sigmoid activation funct
   - Chi-squared Distribution
   - Gamma distribution
   
-
+![Visitors](https://api.visitorbadge.io/api/visitors?path=fatemehsrz&countColor=%23263759)
   
  
  
