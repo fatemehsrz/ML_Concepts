@@ -113,7 +113,7 @@ $$
 $$
 
 
-Xavier initialization is more effective for models with ReLU activation function. [More here](https://arxiv.org/pdf/1502.01852)
+He initialization is more effective for models with ReLU activation function. [More here](https://prateekvishnu.medium.com/xavier-and-he-normal-he-et-al-initialization-8e3d7a087528)
 
 
 ## L1 vs L2 Regularization
