@@ -113,7 +113,7 @@ $$
 $$
 
 
-[More here](https://prateekvishnu.medium.com/xavier-and-he-normal-he-et-al-initialization-8e3d7a087528)
+In He initialization, the weights are initialized keeping in mind the size of the previous layer which helps in attaining a global minimum of the loss function faster and more efficiently.The weights are still random but differ in range depending on the size of the previous layer of neurons. This provides a controlled initialization hence the faster and more efficient gradient descent. [More here](https://prateekvishnu.medium.com/xavier-and-he-normal-he-et-al-initialization-8e3d7a087528)
 
 
 ## L1 vs L2 Regularization
