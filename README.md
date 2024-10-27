@@ -96,6 +96,18 @@ $$
 Xavier initialization is more effective for models with sigmoid activation functions. [More here](https://prateekvjoshi.com/2016/03/29/understanding-xavier-initialization-in-deep-neural-networks/)
 
 
+He Initialization is particularly suited for networks with ReLU activation functions. ReLU tends to zero out negative inputs, which can lead to a loss of variance in the network. To address this, He Initialization sets the variance of the weights to be twice as large as Glorot Initialization using the following formulas:
+
+$$
+\begin{aligned}
+ \sigma= \sqrt{ \frac{2}{fan_{in}} } 
+\end{aligned}
+$$
+
+
+Xavier initialization is more effective for models with ReLU activation functions. [More here](https://arxiv.org/pdf/1502.01852)
+
+
 ## L1 vs L2 Regularization
 
  - soon  ...
