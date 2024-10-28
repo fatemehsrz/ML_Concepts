@@ -213,6 +213,18 @@ $$
  - Central Limit Theorem
  - Type I and Type II errors in hypothesis
  - significance between p-values in statistical testing
+ - difference between descriptive and inferential statistics
+ - confidence interval
+ - Bayes' Theorem
+ - difference between parametric and non-parametric tests
+ - difference between a z-score and a t-score
+ - Simpson's paradox 
+ - Q-Q plot
+ - one-tailed and a two-tailed test
+ - odds ratio
+ - latent variables
+ - chi-square
+ 
  
 ## Distributions
  
