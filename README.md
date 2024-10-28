@@ -158,6 +158,8 @@ $$
 ## SMOTE Oversampling
 
  - soon  ...
+ 
+## Confusion Matrix 
 
 ## plobplot and lmplot
 
@@ -208,6 +210,9 @@ $$
  - ANOVA
  - Information gain
  - Surprise value and Entropy value
+ - Central Limit Theorem
+ - Type I and Type II errors in hypothesis
+ - significance between p-values in statistical testing
  
 ## Distributions
  
