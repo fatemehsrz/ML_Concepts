@@ -160,8 +160,9 @@ $$
  - soon  ...
  
 ## Confusion Matrix 
+- soon ....
 
-<img src="./img/conf.jpg" width="500">
+  <img src="./img/conf.jpg" width="500">
 
 ## plobplot and lmplot
 
