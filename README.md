@@ -161,6 +161,8 @@ $$
  
 ## Confusion Matrix 
 
+<img src="./img/conf.png" width="500">
+
 ## plobplot and lmplot
 
 - soon  ...
