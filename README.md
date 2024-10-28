@@ -161,7 +161,7 @@ $$
  
 ## Confusion Matrix 
 
-<img src="./img/conf.png" width="500">
+<img src="./img/conf.jpg" width="500">
 
 ## plobplot and lmplot
 
