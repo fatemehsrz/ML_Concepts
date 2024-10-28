@@ -212,7 +212,6 @@ $$
  - Surprise value and Entropy value
  - Central Limit Theorem
  - Type I and Type II errors in hypothesis
- - Significance between p-values in statistical testing
  - Difference between descriptive and inferential statistics
  - Confidence interval
  - Bayes' Theorem
