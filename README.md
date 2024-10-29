@@ -227,6 +227,7 @@ $$
  - Difference between a z-score and a t-score
  - Simpson's paradox 
  - Q-Q plot
+ - P–P plot
  - One-tailed and a two-tailed test
  - Odds ratio
  - Latent variables
