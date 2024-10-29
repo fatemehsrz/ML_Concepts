@@ -206,7 +206,7 @@ $$
 ## High Bias vs High Variance
  - soon  ...
  
-  <img src="./img/bias.png" width="350">
+  <img src="./img/bias.png" width="450">
  
 ## Convex vs non-Convex Optimization Problem
  - soon  ...
