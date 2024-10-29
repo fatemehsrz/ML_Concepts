@@ -159,10 +159,13 @@ $$
 
  - soon  ...
  
-## Confusion Matrix 
-- soon ....
+## Dimensionality Reduction
 
-  <img src="./img/conf.jpg" width="500">
+ - PCA
+ - LDA
+ - tSNE
+ - UMAP
+
 
 ## plobplot and lmplot
 
