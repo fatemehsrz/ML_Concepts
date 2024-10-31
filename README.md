@@ -239,11 +239,11 @@ $$
 
   - Bernoulli Distribution
   
-     <img src="./img/dist1.png" width="750">
+     <img src="./img/dist1.png" width="700">
    
   - Binomial Distribution
   
-     <img src="./img/dist3.webp" width="750">
+     <img src="./img/dist3.webp" width="700">
   
   - Multinomial Distribution
   
@@ -253,20 +253,20 @@ $$
     
   - Exponential Distribution
   
-     <img src="./img/exp.png" width="600">
+     <img src="./img/exp.png" width="500">
     
  -  Log-Normal Distribution   
  
-    <img src="./img/lognor.jpg" width="600">
+    <img src="./img/lognor.jpg" width="500">
   
   - Chi-squared Distribution
   
-     <img src="./img/chi.png" width="600">
+     <img src="./img/chi.png" width="500">
   
 
   - Gamma Distribution
   
-     <img src="./img/gamma.webp" width="550">
+     <img src="./img/gamma.webp" width="500">
   
 
   
