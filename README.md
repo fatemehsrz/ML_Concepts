@@ -250,8 +250,10 @@ $$
   - Poisson Distribution
   
     <img src="./img/Poisson.png" width="750">
+    
+  - Exponential distribution
   
-    <img src="./img/dist2.png" width="750">
+    <img src="./img/exp.png" width="750">
  
     <img src="./img/dist3.png" width="750">
   
