@@ -245,24 +245,26 @@ $$
   
   <img src="./img/dist3.webp" width="750">
   
-  - Multinomial distribution
+  - Multinomial Distribution
   
   - Poisson Distribution
   
     <img src="./img/Poisson.png" width="750">
     
-  - Exponential distribution
+  - Exponential Distribution
   
     <img src="./img/exp.png" width="750">
+    
+ -  Log-Normal Distribution   
  
-    <img src="./img/dist3.png" width="750">
+    <img src="./img/lognor.jpg" width="750">
   
   - Chi-squared Distribution
   
     <img src="./img/chi.png" width="750">
   
 
-  - Gamma distribution
+  - Gamma Distribution
   
    <img src="./img/dist4.png" width="750">
   
