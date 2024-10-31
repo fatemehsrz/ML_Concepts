@@ -206,7 +206,7 @@ $$
 ## High Bias vs High Variance
  - soon  ...
  
-  <img src="./img/bias2.png" width="750">
+  <img src="./img/bias2.png" width="600">
  
 ## Convex vs non-Convex Optimization Problem
  - soon  ...
@@ -236,7 +236,7 @@ $$
  
 ## Distributions
 
- <img src="./img/dist.webp" width="550">
+ <img src="./img/dist.webp" width="850">
  
   - Bernoulli Distribution
   - Binomial Distribution
