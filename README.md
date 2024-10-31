@@ -244,21 +244,22 @@ $$
      
  
   - Bernoulli Distribution
-   <img src="./img/dist1.png" width="850">
+   <img src="./img/dist1.png" width="750">
    
   - Binomial Distribution
   - Multinomial distribution
-  
-  <img src="./img/dist2.png" width="850">
   - Poisson Distribution
   
-    <img src="./img/dist3.png" width="850">
+  <img src="./img/dist2.png" width="750">
+ 
+  
+    <img src="./img/dist3.png" width="750">
   - Chi-squared Distribution
   
 
   - Gamma distribution
   
-   <img src="./img/dist4.png" width="850">
+   <img src="./img/dist4.png" width="750">
   
 
   
