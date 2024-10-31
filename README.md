@@ -235,6 +235,8 @@ $$
  
  
 ## Distributions
+
+ <img src="./img/dist.webp" width="550">
  
   - Bernoulli Distribution
   - Binomial Distribution
