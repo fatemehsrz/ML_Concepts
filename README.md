@@ -249,7 +249,7 @@ $$
   
   - Poisson Distribution
   
-    <img src="./img/poisson.png" width="750">
+    <img src="./img/Poisson.png" width="750">
   
     <img src="./img/dist2.png" width="750">
  
