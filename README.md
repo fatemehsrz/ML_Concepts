@@ -249,24 +249,24 @@ $$
   
   - Poisson Distribution
   
-    <img src="./img/Poisson.png" width="750">
+    <img src="./img/Poisson.png" width="600">
     
   - Exponential Distribution
   
-    <img src="./img/exp.png" width="750">
+    <img src="./img/exp.png" width="600">
     
  -  Log-Normal Distribution   
  
-    <img src="./img/lognor.jpg" width="750">
+    <img src="./img/lognor.jpg" width="600">
   
   - Chi-squared Distribution
   
-    <img src="./img/chi.png" width="750">
+    <img src="./img/chi.png" width="600">
   
 
   - Gamma Distribution
   
-   <img src="./img/dist4.png" width="750">
+   <img src="./img/gamma.webp" width="750">
   
 
   
