@@ -255,7 +255,7 @@ $$
   
   - Chi-squared Distribution
   
-    <img src="./img/chi.webp" width="750">
+    <img src="./img/chi.png" width="750">
   
 
   - Gamma distribution
