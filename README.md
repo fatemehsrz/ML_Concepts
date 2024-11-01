@@ -283,11 +283,11 @@ $$
     
   - Exponential Distribution
   
-     <img src="./img/exp.png" width="550">
+     <img src="./img/exp.png" width="500">
     
  -  Log-Normal Distribution   
  
-    <img src="./img/lognor.jpg" width="550">
+    <img src="./img/lognor.jpg" width="500">
   
   - Chi-squared Distribution
   
@@ -296,7 +296,7 @@ $$
 
   - Gamma Distribution
   
-     <img src="./img/gamma.png" width="500">
+     <img src="./img/gamma.png" width="450">
   
 
   
