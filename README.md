@@ -242,13 +242,13 @@ $$
   
 $$
 \begin{aligned}
-P(X=x) = p^x \times (1-p)^(1-x)
+P(X=x) = p^x \times (1-p)^{(1-x)}
 \end{aligned}
 $$
 
 
   
-     <img src="./img/dist1.png" width="700">
+<img src="./img/dist1.png" width="700">
    
   - Binomial Distribution
   
