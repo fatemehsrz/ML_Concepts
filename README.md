@@ -153,7 +153,7 @@ $$
     <img src="./img/lstm.png" width="650">
  
  - CNN-LSTM
- - Variational autoencoder
+ - Variational Autoencoder
  - Temporal Fusion Transformers 
  - Fourier Transform
  
