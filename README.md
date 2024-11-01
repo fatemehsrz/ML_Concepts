@@ -279,7 +279,7 @@ $$
   
   - Poisson Distribution
   
-    <img src="./img/Poisson.png" width="500">
+    <img src="./img/Poisson.png" width="450">
     
   - Exponential Distribution
   
@@ -296,7 +296,7 @@ $$
 
   - Gamma Distribution
   
-     <img src="./img/gamma.png" width="550">
+     <img src="./img/gamma.png" width="500">
   
 
   
