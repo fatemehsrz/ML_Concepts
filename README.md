@@ -283,15 +283,15 @@ $$
     
   - Exponential Distribution
   
-     <img src="./img/exp.png" width="500">
+     <img src="./img/exp.png" width="550">
     
  -  Log-Normal Distribution   
  
-    <img src="./img/lognor.jpg" width="500">
+    <img src="./img/lognor.jpg" width="550">
   
   - Chi-squared Distribution
   
-     <img src="./img/chi.png" width="500">
+     <img src="./img/chi.png" width="550">
   
 
   - Gamma Distribution
