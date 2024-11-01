@@ -237,7 +237,7 @@ $$
 ## Distributions
 
 
-  - **Bernoulli Distribution** is a discrete probability distribution that has two possible outcomes: success (1) or failure (0). Here is the Probability Mass Function (PMF):
+  - **Bernoulli Distribution** is a discrete probability distribution that has two possible outcomes: success ´1´ or failure ´0´. Here is the Probability Mass Function (PMF):
   
   
 $$
