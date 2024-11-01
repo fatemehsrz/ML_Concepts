@@ -123,20 +123,17 @@ The penalty term is the absolute value of the magnitudes of the coefficients, wh
 
 $$
 \begin{aligned}
- Loss+ \lambda \sigma \| \beta_i|
+ Loss+ \lambda \Sigma \| \beta_i|
 \end{aligned}
 $$
 
 
 
-
-
-- `L2` regularization, also  prevents overfitting by penalizing the size of the coefficients. Unlike `L1` regularization, which adds the absolute values of the coefficients to the loss function, `L2` regularization adds the square of the coefficients. This difference in approach leads to different characteristics and effects on the model.
-The `L2` regularization term is the sum of the squares of the coefficients, multiplied by a regularization parameter $\lambda$.
+- `L2` regularization, also  prevents overfitting by penalizing the size of the coefficients. Unlike `L1` regularization, which adds the absolute values of the coefficients to the loss function, `L2` regularization adds the square of the coefficients. This difference in approach leads to different characteristics and effects on the model. The `L2` regularization term is the sum of the squares of the coefficients, multiplied by a regularization parameter $\lambda$. [More here](https://wandb.ai/mostafaibrahim17/ml-articles/reports/Understanding-L1-and-L2-regularization-techniques-for-optimized-model-training--Vmlldzo3NzYwNTM5)
 
 $$
 \begin{aligned}
- Loss+ \lambda \sigma \{\beta_i}^2
+ Loss+ \lambda \Sigma \{\beta_i}^2
 \end{aligned}
 $$
 
