@@ -118,7 +118,28 @@ $$
 
 ## L1 vs L2 Regularization
 
- - soon  ...
+ - L1 regularization reduces overfitting in models by penalizing the absolute size of the model coefficients. 
+The penalty term is the absolute value of the magnitudes of the coefficients, which reduces some coefficients to zero, removing the irrelevant features in a dataset. This encourages sparsity in the model and makes L1 regularization very useful for feature selection in models with many variable
+
+$$
+\begin{aligned}
+ Loss+ \lambda \sigma \| beta_i|
+\end{aligned}
+$$
+
+
+
+
+
+- L2 regularization, also  prevents overfitting by penalizing the size of the coefficients. Unlike L1 regularization, which adds the absolute values of the coefficients to the loss function, L2 regularization adds the square of the coefficients. This difference in approach leads to different characteristics and effects on the model.
+The L2 regularization term is the sum of the squares of the coefficients, multiplied by a regularization parameter $\lambda$.
+
+$$
+\begin{aligned}
+ Loss+ \lambda \sigma \{beta_i}^2
+\end{aligned}
+$$
+
 
 ## Model Hyperparameter  Optimization
  - Grid Search
@@ -177,7 +198,9 @@ $$
 
 ## Likelihood vs probability
 
-- Probability refers to the chance of an event occurring, given a specific model or distribution. These events happen in one universe, therefore sum of probabilities must be `1`. For example, the probability of flipping a fair coin and getting heads is `0.5` and   getting tails is `0.5`. These two numbers add up to `1`. as they exist in the same universe. Likelihoods are the probability of the observed data under certain hypothetical scenarios.  Since there are many hypothetical scenarios there would be likelihoods that do not sum up to `1`.
+- Probability refers to the chance of an event occurring, given a specific model or distribution. These events happen in one universe, therefore sum of probabilities must be `1`. For example, the probability of flipping a fair coin and getting heads is `0.5` and   getting tails is `0.5`. These two numbers add up to `1`. as they exist in the same universe. 
+
+- Likelihoods are the probability of the observed data under certain hypothetical scenarios.  Since there are many hypothetical scenarios there would be likelihoods that do not sum up to `1`.
 For example,  given a dataset of coin flips, we can calculate the likelihood of different coin bias values (e.g., `0.4`, `0.5`, `0.6`) to determine the most likely value.
 
 ## Prior Probability vs Posterior Probability vs Likelihood
