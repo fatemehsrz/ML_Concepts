@@ -238,9 +238,11 @@ $$
 
 
   - **Bernoulli Distribution** is a discrete probability distribution that has two possible outcomes: success (1) or failure (0). Here is the Probability Mass Function (PMF):
+  
+  
 $$
 \begin{aligned}
-P(X=x) = p^x * (1-p)^(1-x)
+P(X=x) = p^x \times (1-p)^(1-x)
 \end{aligned}
 $$
 
