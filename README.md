@@ -296,7 +296,7 @@ $$
 
   - Gamma Distribution
   
-     <img src="./img/gamma.webp" width="500">
+     <img src="./img/gamma.png" width="550">
   
 
   
