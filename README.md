@@ -118,12 +118,12 @@ $$
 
 ## L1 vs L2 Regularization
 
- - L1 regularization reduces overfitting in models by penalizing the absolute size of the model coefficients. 
-The penalty term is the absolute value of the magnitudes of the coefficients, which reduces some coefficients to zero, removing the irrelevant features in a dataset. This encourages sparsity in the model and makes L1 regularization very useful for feature selection in models with many variable
+ - `L1` regularization reduces overfitting in models by penalizing the absolute size of the model coefficients. 
+The penalty term is the absolute value of the magnitudes of the coefficients, which reduces some coefficients to zero, removing the irrelevant features in a dataset. This encourages sparsity in the model and makes `L1` regularization very useful for feature selection in models with many variable
 
 $$
 \begin{aligned}
- Loss+ \lambda \sigma \| beta_i|
+ Loss+ \lambda \sigma \| \beta_i|
 \end{aligned}
 $$
 
@@ -131,12 +131,12 @@ $$
 
 
 
-- L2 regularization, also  prevents overfitting by penalizing the size of the coefficients. Unlike L1 regularization, which adds the absolute values of the coefficients to the loss function, L2 regularization adds the square of the coefficients. This difference in approach leads to different characteristics and effects on the model.
-The L2 regularization term is the sum of the squares of the coefficients, multiplied by a regularization parameter $\lambda$.
+- `L2` regularization, also  prevents overfitting by penalizing the size of the coefficients. Unlike `L1` regularization, which adds the absolute values of the coefficients to the loss function, `L2` regularization adds the square of the coefficients. This difference in approach leads to different characteristics and effects on the model.
+The `L2` regularization term is the sum of the squares of the coefficients, multiplied by a regularization parameter $\lambda$.
 
 $$
 \begin{aligned}
- Loss+ \lambda \sigma \{beta_i}^2
+ Loss+ \lambda \sigma \{\beta_i}^2
 \end{aligned}
 $$
 
