@@ -167,7 +167,7 @@ $$
  
 ## Data Interpolation
 
-- Data interpolation is a technique  to estimate values between known data points in the dataset. It is widely used for filling missing data points or estimating values at points where data is not directly measured that can be helpful in smoothing out irregularities in data, creating visualizations, or making predictions.
+- Data interpolation is a technique  to estimate values between known data points in the dataset. It is widely used for filling missing data points or estimating values at points where data is not directly measured. That can be helpful in smoothing out irregularities in data, creating visualizations, or making predictions.
 Data interpolation is effectively based on the nature of your data that can be linear, polynomial or spline. [More here](https://airbyte.com/data-engineering-resources/data-interpolation)
 
     <img src="./img/runge.png" width="550">
@@ -177,7 +177,9 @@ Data interpolation is effectively based on the nature of your data that can be l
    
 ## Data Augmentation
 
-- soon ....
+- Data Augmentation is the process of copying the original data points with some slight modifications to the original data, increasing the number of training samples to the dataset for the model to train efficiently. For example, by rotating an image of a butterfly, it still shows a butterfly. This has the benefit that the additional data points do not have to be labeled manually.
+
+    <img src="./img/aug.webp" width="550">
 
 ## SMOTE Oversampling
 
