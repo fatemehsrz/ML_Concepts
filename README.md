@@ -167,8 +167,8 @@ $$
  
 ## Data Interpolation
 
-- Data interpolation is a technique  to estimate values between known data points in the dataset. It is widely used for filling missing data points or estimating values at points where data is not directly measured that can be helpfull im smoothing out irregularities in data, creating visualizations, or making predictions.
-Data interpolate is effectively based on the nature of your data that can be linear, polynomial or spline.
+- Data interpolation is a technique  to estimate values between known data points in the dataset. It is widely used for filling missing data points or estimating values at points where data is not directly measured that can be helpful in smoothing out irregularities in data, creating visualizations, or making predictions.
+Data interpolation is effectively based on the nature of your data that can be linear, polynomial or spline. [More here](https://airbyte.com/data-engineering-resources/data-interpolation)
 
     <img src="./img/runge.png" width="550">
       
