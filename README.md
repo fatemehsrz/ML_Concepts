@@ -171,15 +171,15 @@ $$
 Data interpolate is effectively based on the nature of your data that can be linear, polynomial or spline.
  - Linear interpolation
  
-      <img src="./img/lin.png" width="650">
+      <img src="./img/lin.png" width="330">
       
  - Polynomial interpolation 
  
-      <img src="./img/squr.png" width="650">
+      <img src="./img/squr.png" width="750">
       
  - Spline interpolation 
  
-      <img src="./img/spine.png" width="650">
+      <img src="./img/spine.png" width="430">
 
 
 
