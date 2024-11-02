@@ -177,13 +177,13 @@ Data interpolation is effectively based on the nature of your data that can be l
    
 ## Data Augmentation
 
-- Data Augmentation is the process of copying the original data points with some slight modifications to the dataset, increasing the number of training samples to the dataset for the model to train efficiently. For example, by rotating the image of a butterfly, it still shows a butterfly. This has the benefit that the additional data points do not have to be labeled manually.
+- Data Augmentation is the process of copying the original data points with some slight modifications to the dataset, increasing the number of training samples to the dataset for the model to train efficiently. For example, by rotating the image of a butterfly, it still shows a butterfly. This has the benefit that the additional data points do not have to be labeled manually. [More here](https://www.scaler.com/topics/tensorflow/data-augmentation-tensorflow/)
 
     <img src="./img/aug.webp" width="650">
 
 ## SMOTE Oversampling
 
- - SMOTE is an oversampling technique where the synthetic samples are generated for the minority class. This algorithm  focuses on the feature space to generate new instances with the help of interpolation between the positive instances that lie together.
+ - SMOTE is an oversampling technique where the synthetic samples are generated for the minority class. This algorithm  focuses on the feature space to generate new instances with the help of interpolation between the positive instances that lie together. [More here](https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/)
  
      <img src="./img/smot1.png" width="750">
  
