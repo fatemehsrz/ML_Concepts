@@ -173,18 +173,9 @@ Data interpolate is effectively based on the nature of your data that can be lin
  
     
     
-     <img src="./img/interpol.gif" width="430">
+     <img src="./img/interpol.gif" width="750">
       
- - Polynomial interpolation 
- 
-      <img src="./img/squr.png" width="750">
-      
- - Spline interpolation 
- 
-      <img src="./img/spine.png" width="430">
 
-
-   <img src="./img/lin.png" width="360"> 
    
    
 ## Data Augmentation
