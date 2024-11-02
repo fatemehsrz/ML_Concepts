@@ -167,7 +167,16 @@ $$
  
 ## Data Interpolation
 
-- soon ...
+- Data interpolation is a technique  to estimate values between known data points in the dataset. It is widely used for filling missing data points or estimating values at points where data is not directly measured that can be helpfull im smoothing out irregularities in data, creating visualizations, or making predictions.
+Data interpolate is effectively based on the nature of your data that can be linear, polynomial or spline.
+    - Linear interpolation
+      <img src="./img/d3.webp" width="650">
+    - Polynomial interpolation 
+      <img src="./img/d3.webp" width="650">
+    - Spline interpolation 
+      <img src="./img/d3.webp" width="650">
+
+
 
 ## Data Augmentation
 
@@ -195,7 +204,7 @@ $$
 
 ## Likelihood vs probability
 
-- Probability refers to the chance of an event occurring, given a specific model or distribution. These events happen in one universe, therefore the sum of the probabilities must be `1`. For example, the probability of flipping a fair coin and getting heads is `0.5` and   getting tails is `0.5`. These two numbers add up to `1`. as they exist in the same universe. 
+- Probability refers to the chance of an event occurring, given a specific model or distribution. These events happen in one universe, therefore the sum of the probabilities must be `1`. For example, the probability of flipping a fair coin and getting heads is `0.5` and   getting tails is `0.5`. These two numbers add up to `1` as they exist in the same universe. 
 
 - Likelihoods are the probability of the observed data under certain hypothetical scenarios.  Since there are many hypothetical scenarios there would be likelihoods that do not sum up to `1`.
 For example,  given a dataset of coin flips, we can calculate the likelihood of different coin bias values (e.g., `0.4`, `0.5`, `0.6`) to determine the most likely value.
