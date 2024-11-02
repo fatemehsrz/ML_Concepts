@@ -160,7 +160,7 @@ $$
  
 ## Dependent vs Independent Variables
  - The input variables are known as the independent variables, as each variable must describe a distinct aspect of the data which is not available in others.
- - The target variable is known as a dependent variable as the changes in input values will affect the target value.  
+ - The target variable is known as a dependent variable as the changes in input values will affect the target value.
  
      <img src="./img/cor2.png" width="650">
  
@@ -169,9 +169,8 @@ $$
 
 - Data interpolation is a technique  to estimate values between known data points in the dataset. It is widely used for filling missing data points or estimating values at points where data is not directly measured that can be helpfull im smoothing out irregularities in data, creating visualizations, or making predictions.
 Data interpolate is effectively based on the nature of your data that can be linear, polynomial or spline.
- 
- 
-    <img src="./img/lin.png" width="330">  <img src="./img/spine.png" width="430">
+
+    <img src="./img/lin.png" width="430">  <img src="./img/spine.png" width="430">
       
  - Polynomial interpolation 
  
