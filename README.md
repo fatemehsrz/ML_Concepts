@@ -183,7 +183,7 @@ Data interpolation is effectively based on the nature of your data that can be l
 
 ## SMOTE Oversampling
 
- - soon  ...
+ - SMOTE is an oversampling technique where the synthetic samples are generated for the minority class. This algorithm  focuses on the feature space to generate new instances with the help of interpolation between the positive instances that lie together.
  
      <img src="./img/smot1.png" width="750">
  
