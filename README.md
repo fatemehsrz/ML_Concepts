@@ -184,7 +184,7 @@ Data interpolation is effectively based on the nature of your data that can be l
 ## SMOTE Oversampling
 
  - soon  ...
- <img src="./img/smoo.png" width="850">
+ <img src="./img/smot.png" width="850">
  
 ## Dimensionality Reduction
 
