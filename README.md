@@ -173,7 +173,7 @@ Data interpolate is effectively based on the nature of your data that can be lin
  
     
     
-     <img src="./img/interpl.gif" width="430">
+     <img src="./img/interpol.gif" width="430">
       
  - Polynomial interpolation 
  
