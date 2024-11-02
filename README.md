@@ -177,13 +177,14 @@ Data interpolation is effectively based on the nature of your data that can be l
    
 ## Data Augmentation
 
-- Data Augmentation is the process of copying the original data points with some slight modifications to the original data, increasing the number of training samples to the dataset for the model to train efficiently. For example, by rotating the image of a butterfly, it still shows a butterfly. This has the benefit that the additional data points do not have to be labeled manually.
+- Data Augmentation is the process of copying the original data points with some slight modifications to the dataset, increasing the number of training samples to the dataset for the model to train efficiently. For example, by rotating the image of a butterfly, it still shows a butterfly. This has the benefit that the additional data points do not have to be labeled manually.
 
     <img src="./img/aug.webp" width="650">
 
 ## SMOTE Oversampling
 
  - soon  ...
+ <img src="./img/smoo.png" width="550">
  
 ## Dimensionality Reduction
 
