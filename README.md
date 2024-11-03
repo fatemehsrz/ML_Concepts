@@ -144,6 +144,14 @@ $$
  - [Bayesian Search](http://minjeancho.com/bayesian_search/bayesian_search.html)
  
   <img src="./img/bsy.jpg" width="700">
+  
+## Feature Importance with SHAP (SHapley Additive exPlanation) 
+
+ - soon
+ 
+ <img src="./img/shap2.png" width="700">
+
+  
 
 ## Time Series Models
 
