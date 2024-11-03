@@ -61,7 +61,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 ## Momentum in Neural Networks
 
-- During training, gradient descent does not exactly provide the direction in which the loss function is headed i.e. the derivative of the loss function. Therefore, the loss value might not always be headed in the optimal direction and can easily gets stuck in a local minima. To avoid this situation, we use a momentum term in the objective function, which is a value between `0` and `1` that increases the size of the steps taken towards the minimum by trying to jump from a local minima. If the momentum term is large then the learning rate should be kept smaller. A large value of momentum also means that the convergence will happen fast. But if both the momentum and learning rate are kept at large values, then you might skip the minimum with a huge step. A small value of momentum cannot reliably avoid local minima, and can also slow down the training of the system. Momentum also helps in smoothing out the variations, if the gradient keeps changing direction. A right value of momentum can be either learned by hit and trial or through cross-validation. [More here](https://medium.com/analytics-vidhya/momentum-a-simple-yet-efficient-optimizing-technique-ef76834e4423)
+- During training, gradient descent does not exactly provide the direction in which the loss function is headed i.e. the derivative of the loss function. Therefore, the loss value might not always be headed in the optimal direction and can easily gets stuck in a local minima. To avoid this situation, we use a momentum term in the objective function, which is a value between `0` and `1` that increases the size of the steps taken towards the minimum by trying to jump from a local minima. If the momentum term is large then the learning rate should be kept smaller. A large value of momentum also means that the convergence will happen fast. But if both the momentum and learning rate are kept at large values, then you might skip the minimum with a huge step. A small value of momentum cannot reliably avoid local minima, and can also slow down the training of the system. Momentum also helps in smoothing out the variations, if the gradient keeps changing direction. A right value of momentum can be either learned by hit and trial or through cross-validation. [More here ...](https://medium.com/analytics-vidhya/momentum-a-simple-yet-efficient-optimizing-technique-ef76834e4423)
 
    <img src="./img/grd1.jpg" width="650">
 
@@ -93,7 +93,7 @@ $$
 $$
 
  
-- Xavier initialization is more effective for models with sigmoid activation function. [More here](https://prateekvjoshi.com/2016/03/29/understanding-xavier-initialization-in-deep-neural-networks/)
+- Xavier initialization is more effective for models with sigmoid activation function. [More here ...](https://prateekvjoshi.com/2016/03/29/understanding-xavier-initialization-in-deep-neural-networks/)
 
 
 - He initialization is particularly suited for networks with ReLU activation functions. ReLU tends to zero out negative inputs, which can lead to a loss of variance in the network. To address this, normal He initialization sets the variance of the weights to be twice as large as Glorot Initialization as follows:
@@ -113,7 +113,7 @@ $$
 $$
 
 
-- In He initialization, the weights are initialized keeping in mind the size of the previous layer which helps in attaining a global minimum of the loss function faster and more efficiently. The weights are still random but differ in range depending on the size of the previous layer of neurons. This provides a controlled initialization hence the faster and more efficient gradient descent. [More here](https://prateekvishnu.medium.com/xavier-and-he-normal-he-et-al-initialization-8e3d7a087528)
+- In He initialization, the weights are initialized keeping in mind the size of the previous layer which helps in attaining a global minimum of the loss function faster and more efficiently. The weights are still random but differ in range depending on the size of the previous layer of neurons. This provides a controlled initialization hence the faster and more efficient gradient descent. [More here ...](https://prateekvishnu.medium.com/xavier-and-he-normal-he-et-al-initialization-8e3d7a087528)
 
 
 ## L1 vs L2 Regularization
@@ -129,7 +129,7 @@ $$
 
 
 
-- `L2` regularization also  prevents overfitting by penalizing the size of the coefficients. Unlike `L1` regularization, which adds the absolute values of the coefficients to the loss function, `L2` regularization adds the square of the coefficients. This difference in approach leads to different characteristics and effects on the model. The `L2` regularization term is the sum of the squares of the coefficients, multiplied by a regularization parameter $\lambda$. [More here](https://wandb.ai/mostafaibrahim17/ml-articles/reports/Understanding-L1-and-L2-regularization-techniques-for-optimized-model-training--Vmlldzo3NzYwNTM5)
+- `L2` regularization also  prevents overfitting by penalizing the size of the coefficients. Unlike `L1` regularization, which adds the absolute values of the coefficients to the loss function, `L2` regularization adds the square of the coefficients. This difference in approach leads to different characteristics and effects on the model. The `L2` regularization term is the sum of the squares of the coefficients, multiplied by a regularization parameter $\lambda$. [More here ...](https://wandb.ai/mostafaibrahim17/ml-articles/reports/Understanding-L1-and-L2-regularization-techniques-for-optimized-model-training--Vmlldzo3NzYwNTM5)
 
 $$
 \begin{aligned}
@@ -165,7 +165,7 @@ $$
 \end{aligned}
 $$
  
- - Shapley values are the solution that satisfies properties of Efficiency, Symmetry, Dummy and Additivity. [More here](https://christophm.github.io/interpretable-ml-book/shapley.html)
+ - Shapley values are the solution that satisfies properties of Efficiency, Symmetry, Dummy and Additivity. [More here ...](https://christophm.github.io/interpretable-ml-book/shapley.html)
  
  <img src="./img/shap2.png" width="760">
 
@@ -184,7 +184,7 @@ $$
 ## Data Interpolation
 
 - Data interpolation is a technique  to estimate values between known data points in the dataset. It is widely used for filling missing data points or estimating values at points where data is not directly measured. That can be helpful in smoothing out irregularities in data, creating visualizations, or making predictions.
-Data interpolation is effectively based on the nature of your data that can be linear, polynomial or spline. [More here](https://airbyte.com/data-engineering-resources/data-interpolation)
+Data interpolation is effectively based on the nature of your data that can be linear, polynomial or spline. [More here ...](https://airbyte.com/data-engineering-resources/data-interpolation)
 
     <img src="./img/runge.png" width="550">
       
@@ -198,7 +198,7 @@ Data interpolation is effectively based on the nature of your data that can be l
 
 ## SMOTE Oversampling
 
- - SMOTE is an oversampling technique where the synthetic samples are generated for the minority class. This algorithm  focuses on the feature space to generate new instances with the help of interpolation between the positive instances that lie together. [More here](https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/)
+ - SMOTE is an oversampling technique where the synthetic samples are generated for the minority class. This algorithm  focuses on the feature space to generate new instances with the help of interpolation between the positive instances that lie together. [More here ...](https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/)
  
      <img src="./img/smot1.png" width="750">
      
