@@ -147,7 +147,7 @@ $$
   
 ## Feature Importance with SHAP  
 
- - SHAP (SHapley Additive exPlanation) values explain the prediction of an instance $x$ by computing the contribution of each feature to the prediction. The SHAP explanation method computes Shapley values from coalitional game theory and feature values act as players in a coalition. Shapley values tell us how to fairly distribute the "payout" or "prediction" among the features. A player can be an individual feature value or group of feature values. Shapley value explanation is represented as an additive feature attribution method, a linear model. That view connects LIME and Shapley values. SHAP specifies the explanation as:
+ - The goal of [SHAP](https://christophm.github.io/interpretable-ml-book/shapley.html) is to explain the prediction of an instance $x$ by computing the contribution of each feature to the prediction. The computation is based on coalitional game theory and feature values act as players in a coalition. Shapley values tell us how to fairly distribute the "payout" or "prediction" among the features. A player can be an individual feature value or group of feature values. Shapley value explanation is represented as an additive feature attribution method, a linear model. That view connects LIME and Shapley values. SHAP specifies the explanation as:
 
 $$
 \begin{aligned}
@@ -171,17 +171,7 @@ $$
 
   
 
-## Time Series Models
 
- - ARIMA
- - [BiLSTM](https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm)
- 
-    <img src="./img/lstm.png" width="650">
- 
- - CNN-LSTM
- - Variational Autoencoder
- - Temporal Fusion Transformers 
- - Fourier Transform
  
  
 ## Dependent vs Independent Variables
@@ -199,8 +189,7 @@ Data interpolation is effectively based on the nature of your data that can be l
     <img src="./img/runge.png" width="550">
       
 
-   
-   
+
 ## Data Augmentation
 
 - Data Augmentation is the process of copying the original data points with some slight modifications to the dataset, increasing the number of training samples to the dataset for the model to train efficiently. For example, by rotating the image of a butterfly, it still shows a butterfly. This has the benefit that the additional data points do not have to be labeled manually. [More here](https://www.scaler.com/topics/tensorflow/data-augmentation-tensorflow/)
@@ -212,7 +201,31 @@ Data interpolation is effectively based on the nature of your data that can be l
  - SMOTE is an oversampling technique where the synthetic samples are generated for the minority class. This algorithm  focuses on the feature space to generate new instances with the help of interpolation between the positive instances that lie together. [More here](https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/)
  
      <img src="./img/smot1.png" width="750">
+     
+## Time Series Models
+
+ - ARIMA
+ - [BiLSTM](https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm)
  
+    <img src="./img/lstm.png" width="650">
+ 
+ - CNN-LSTM
+ - Variational Autoencoder
+ - Temporal Fusion Transformers 
+ - Fourier Transform     
+ 
+
+
+## Likelihood vs probability
+
+- Probability refers to the chance of an event occurring, given a specific model or distribution. These events happen in one universe, therefore the sum of the probabilities must be `1`. For example, the probability of flipping a fair coin and getting heads is `0.5` and   getting tails is `0.5`. These two numbers add up to `1` as they exist in the same universe. 
+
+- Likelihoods are the probability of the observed data under certain hypothetical scenarios.  Since there are many hypothetical scenarios there would be likelihoods that do not sum up to `1`.
+For example,  given a dataset of coin flips, we can calculate the likelihood of different coin bias values (e.g., `0.4`, `0.5`, `0.6`) to determine the most likely value.
+
+## Prior Probability vs Posterior Probability vs Likelihood
+ - soon
+
 ## Dimensionality Reduction
 
  - PCA
@@ -228,15 +241,6 @@ Data interpolation is effectively based on the nature of your data that can be l
 ## Clustering
   - Spectral clustering
   - Hierarchical clustering
-
-## Likelihood vs probability
-
-- Probability refers to the chance of an event occurring, given a specific model or distribution. These events happen in one universe, therefore the sum of the probabilities must be `1`. For example, the probability of flipping a fair coin and getting heads is `0.5` and   getting tails is `0.5`. These two numbers add up to `1` as they exist in the same universe. 
-
-- Likelihoods are the probability of the observed data under certain hypothetical scenarios.  Since there are many hypothetical scenarios there would be likelihoods that do not sum up to `1`.
-For example,  given a dataset of coin flips, we can calculate the likelihood of different coin bias values (e.g., `0.4`, `0.5`, `0.6`) to determine the most likely value.
-
-## Prior Probability vs Posterior Probability vs Likelihood
 
 - soon  ...
 
