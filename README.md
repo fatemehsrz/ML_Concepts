@@ -147,7 +147,7 @@ $$
   
 ## Feature Importance with SHAP  
 
- - The goal of [SHAP](https://christophm.github.io/interpretable-ml-book/shapley.html) is to explain the prediction of an instance $x$ by computing the contribution of each feature to the prediction. The computation is based on coalitional game theory and feature values act as players in a coalition. Shapley values tell us how to fairly distribute the "payout" or "prediction" among the features. A player can be an individual feature value or group of feature values. Shapley value explanation is represented as an additive feature attribution method, a linear model. That view connects LIME and Shapley values. SHAP specifies the explanation as:
+ - The goal of SHAP is to explain the prediction of an instance $x$ by computing the contribution of each feature to the prediction. The computation is based on coalitional game theory and feature values act as players in a coalition. Shapley values tell us how to fairly distribute the "payout" or "prediction" among the features. A player can be an individual feature value or group of feature values. Shapley value explanation is represented as an additive feature attribution method, a linear model. That view connects LIME and Shapley values. SHAP specifies the explanation as:
 
 $$
 \begin{aligned}
@@ -165,7 +165,7 @@ $$
 \end{aligned}
 $$
  
- 
+ - Shapley values are the solution that satisfies properties of Efficiency, Symmetry, Dummy and Additivity. [More here](https://christophm.github.io/interpretable-ml-book/shapley.html)
  
  <img src="./img/shap2.png" width="760">
 
