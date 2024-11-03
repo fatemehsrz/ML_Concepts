@@ -147,14 +147,7 @@ $$
   
 ## Feature Importance with SHAP  
 
- - SHAP (SHapley Additive exPlanation) values explain the prediction of an instance $x$ by computing the contribution of each feature to the prediction. 
- 
- 
- 
- The SHAP explanation method computes Shapley values from coalitional game theory and feature values act as players in a coalition. 
- 
- 
- Shapley values tell us how to fairly distribute the "payout" or "prediction" among the features. A player can be an individual feature value or group of feature values. Shapley value explanation is represented as an additive feature attribution method, a linear model. That view connects LIME and Shapley values. SHAP specifies the explanation as:
+ - SHAP (SHapley Additive exPlanation) values explain the prediction of an instance $x$ by computing the contribution of each feature to the prediction. The SHAP explanation method computes Shapley values from coalitional game theory and feature values act as players in a coalition. Shapley values tell us how to fairly distribute the "payout" or "prediction" among the features. A player can be an individual feature value or group of feature values. Shapley value explanation is represented as an additive feature attribution method, a linear model. That view connects LIME and Shapley values. SHAP specifies the explanation as:
 
 $$
 \begin{aligned}
@@ -163,19 +156,19 @@ $$
 $$
 
 
-where g is the explanation model,  
+where $f$ is the explanation model, $z \in \{ 0,1 \}$ is the coalition vector and \Phi_j \in \R is the feature attribution for a feature $j$.
+ 
+ 
+In the coalition vector, an entry of `1` means that the corresponding feature value is "present" and `0` that it is "absent".  To compute Shapley values, some feature values are playing ("present") and some are not ("absent"). The representation as a linear model of coalitions is a trick for the computation of the  
+
+ $\Phi$’s. For $x$, the instance of interest, the coalition vector $x'$ is a vector of all `1`'s, i.e. all feature values are "present". The formula simplifies to:
 
 
- is the coalition vector, M is the maximum coalition size and  
-
-  is the feature attribution for a feature j, the Shapley values. What I call "coalition vector" is called “simplified features” in the SHAP paper. I think this name was chosen, because for e.g. image data, the images are not represented on the pixel level, but aggregated to superpixels. I believe it is helpful to think about the z’s as describing coalitions: In the coalition vector, an entry of 1 means that the corresponding feature value is “present” and 0 that it is "absent. This should sound familiar to you if you know about Shapley values. To compute Shapley values, we simulate that only some feature values are playing ("present") and some are not ("absent"). The representation as a linear model of coalitions is a trick for the computation of the  
-
- ’s. For x, the instance of interest, the coalition vector x’ is a vector of all 1's, i.e. all feature values are "present". The formula simplifies to:
-
-
-You can find this formula in similar notation in the Shapley value chapter. More about the actual estimation comes later. Let us first talk about the properties of the  
-
- ’s before we go into the details of their estimation.
+$$
+\begin{aligned}
+ f(x')=  \Phi_0 + \Sigma \Phi_j
+\end{aligned}
+$$
  
  
  
