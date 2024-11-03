@@ -156,7 +156,7 @@ $$
 $$
 
 
-- where $f$ is the explanation model, $`z \in \{ 0,1 \}`$ is the coalition vector and $ `\Phi_j \in \mathbb{R}` $is the feature attribution for a feature $j$. In the coalition vector, an entry of `1` means that the corresponding feature value is "present" and `0` that it is "absent".  To compute Shapley values, some feature values are playing ("present") and some are not ("absent"). The representation as a linear model of coalitions is a trick for the computation of the  $\Phi$’s. For $x$, the instance of interest, the coalition vector $x'$ is a vector of all `1`'s, i.e. all feature values are "present". The formula simplifies to:
+- where $f$ is the explanation model, $`z \in \{ 0,1 \}`$ is the coalition vector and $`\Phi_j \in \mathbb{R}`$ is the feature attribution for a feature $j$. In the coalition vector, an entry of `1` means that the corresponding feature value is "present" and `0` that it is "absent".  To compute Shapley values, some feature values are playing ("present") and some are not ("absent"). The representation as a linear model of coalitions is a trick for the computation of the  $\Phi$’s. For $x$, the instance of interest, the coalition vector $x'$ is a vector of all `1`'s, i.e. all feature values are "present". The formula simplifies to:
 
 
 $$
