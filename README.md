@@ -170,9 +170,6 @@ $$
  <img src="./img/shap2.png" width="760">
 
   
-
-
- 
  
 ## Dependent vs Independent Variables
  - The input variables are known as the independent variables, as each variable must describe a distinct aspect of the data which is not available in others.
@@ -226,6 +223,37 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
 ## Prior Probability vs Posterior Probability
  - soon
 
+ 
+## Right-skewed vs Left-skewed Distribution
+
+ <img src="./img/left-right.jpg" width="650">
+
+## PDF vs CDF
+
+ <img src="./img/cdf.PNG" width="650">
+
+## Comparing Distributions 
+  - KL Divergence measures how one reference probability distribution $P$ is different from a second probability distribution $Q$. Mathematically, it is defined as
+
+$$
+\begin{aligned}
+D_{kl}(P||Q)=  \Sigma \log \frac{P(x)}{Q(x)}
+\end{aligned}
+$$
+
+
+- With KL divergence can calculate exactly how much information is lost approximating one distribution with another. [More here ...](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
+
+- KS test statistic decides whether two random samples have the same statistical distribution.  For a given cumulative distribution function $F(x)$, Kolmogorov–Smirnov is mathematically defined as
+
+$$
+\begin{aligned}
+D_n=  sup_{x} | F_n(x)- F(x) |
+\end{aligned}
+$$
+    
+- Where $sup_{x}$ is the supremum of the set of distances. Intuitively, the statistic takes the largest absolute difference between the two distribution functions across all x values. [More here ...](https://arize.com/blog-course/kolmogorov-smirnov-test/#:~:text=The%20KS%20test%20statistic%20is,and%20would%20be%20called%20eCDFs.)
+    
 ## Dimensionality Reduction
 
  - PCA
@@ -271,39 +299,6 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
  
 ## Convex vs non-Convex Optimization Problem
  - soon  ...
- 
-## Right-skewed vs Left-skewed Distribution
-
- <img src="./imgleft-right.jpg" width="650">
-
-## PDF vs CDF
-
- <img src="./img/cdf.png" width="650">
-
-## Comparing Distributions 
-  - KL Divergence measures how one reference probability distribution $P$ is different from a second probability distribution $Q$. Mathematically, it is defined as
-
-$$
-\begin{aligned}
-D_{kl}(P||Q)=  \Sigma \log \frac{P(x)}{Q(x)}
-\end{aligned}
-$$
-
-
-- With KL divergence can calculate exactly how much information is lost approximating one distribution with another. [More here ...](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
-
-- KS test statistic decides whether two random samples have the same statistical distribution.  For a given cumulative distribution function $F(x)$, Kolmogorov–Smirnov is mathematically defined as
-
-$$
-\begin{aligned}
-D_n=  sup_{x} | F_n(x)- F(x) |
-\end{aligned}
-$$
-    
-- Where $sup_{x}$ is the supremum of the set of distances. Intuitively, the statistic takes the largest absolute difference between the two distribution functions across all x values. [More here ...](https://arize.com/blog-course/kolmogorov-smirnov-test/#:~:text=The%20KS%20test%20statistic%20is,and%20would%20be%20called%20eCDFs.)
-    
-
- 
 ## Distributions
 
 
