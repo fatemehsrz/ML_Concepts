@@ -221,7 +221,8 @@ Data interpolation is effectively based on the nature of your data that can be l
 For example,  given a dataset of coin flips, we can calculate the likelihood of different coin bias values (e.g., `0.4`, `0.5`, `0.6`) to determine the most likely value.
 
 ## Prior Probability vs Posterior Probability
- - soon
+
+  <img src="./img/likelihood.png" width="550">
 
  
 ## Right-skewed vs Left-skewed Distribution
