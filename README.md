@@ -225,7 +225,7 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
 - **Prior Probability** represents the strength in beliefs about the parameters based on previous experiences $P(X)$.
 - **Evidence**  is simply the constant probability of the data under any hypothesis $P(Y)$.
 - **Posterior Probability** is the probability of an event occurring after taking into account the evidence information $P(X|Y)$. Over the time posterior probability will update the prior Probability.
-- **Likelihood** is the probability of seeing the data given certain hypothesis $P(Y|X)$. [More here](https://ericcastellanos.me/post/a_gentle_introduction_to_bayesian_statistics/)
+- **Likelihood** is the probability of seeing the data given certain hypothesis $P(Y|X)$. [More here ...](https://ericcastellanos.me/post/a_gentle_introduction_to_bayesian_statistics/)
  
   <img src="./img/likelihood.png" width="550">
 
