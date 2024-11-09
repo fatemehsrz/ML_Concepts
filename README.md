@@ -222,6 +222,8 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
 
 ## Prior Probability vs Posterior Probability
 
+- **Prior Probability** represents the strength in beliefs about the parameters based on previous experiences.
+
   <img src="./img/likelihood.png" width="550">
 
  
