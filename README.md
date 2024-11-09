@@ -63,7 +63,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 - During training, gradient descent does not exactly provide the direction in which the loss function is headed i.e. the derivative of the loss function. Therefore, the loss value might not always be headed in the optimal direction and can easily gets stuck in a local minima. To avoid this situation, we use a momentum term in the objective function, which is a value between `0` and `1` that increases the size of the steps taken towards the minimum by trying to jump from a local minima. If the momentum term is large then the learning rate should be kept smaller. A large value of momentum also means that the convergence will happen fast. But if both the momentum and learning rate are kept at large values, then you might skip the minimum with a huge step. A small value of momentum cannot reliably avoid local minima, and can also slow down the training of the system. Momentum also helps in smoothing out the variations, if the gradient keeps changing direction. A right value of momentum can be either learned by hit and trial or through cross-validation. [More here ...](https://medium.com/analytics-vidhya/momentum-a-simple-yet-efficient-optimizing-technique-ef76834e4423)
 
-   <img src="./img/grd1.jpg" width="650">
+   <img src="./img/grd1.jpg" width="630">
 
 ## Xavier Initialization vs He Initialization
 
@@ -183,7 +183,7 @@ $$
 - Data interpolation is a technique  to estimate values between known data points in the dataset. It is widely used for filling missing data points or estimating values at points where data is not directly measured. That can be helpful in smoothing out irregularities in data, creating visualizations, or making predictions.
 Data interpolation is effectively based on the nature of your data that can be linear, polynomial or spline. [More here ...](https://airbyte.com/data-engineering-resources/data-interpolation)
 
-    <img src="./img/runge.png" width="550">
+    <img src="./img/runge.png" width="530">
       
 
 
@@ -191,7 +191,7 @@ Data interpolation is effectively based on the nature of your data that can be l
 
 - Data Augmentation is the process of copying the original data points with some slight modifications to the dataset, increasing the number of training samples to the dataset for the model to train efficiently. For example, by rotating the image of a butterfly, it still shows a butterfly. This has the benefit that the additional data points do not have to be labeled manually. [More here ...](https://www.scaler.com/topics/tensorflow/data-augmentation-tensorflow/)
 
-    <img src="./img/aug.webp" width="650">
+    <img src="./img/aug.webp" width="600">
 
 ## SMOTE Oversampling
 
