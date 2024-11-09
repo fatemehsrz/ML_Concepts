@@ -293,7 +293,11 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
  - Odds ratio
  - Latent variables
  - Chi-square
- 
+
+## Comparing Distributions 
+  - KL Divergence
+  - KS statistices
+  - 
  
 ## Distributions
 
