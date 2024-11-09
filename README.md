@@ -67,7 +67,7 @@ Underfitting occurs when a machine learning model is too simple leading to low m
 
 ## Xavier Initialization vs He Initialization
 
-- Xavier/Glorot initialization is designed to alleviate the problem of vanishing or exploding gradients during training. With a random initialization, the model does not have any assumption about the data, therefore the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let us consider a linear neuron:
+- **Xavier/Glorot initialization** is designed to alleviate the problem of vanishing or exploding gradients during training. With a random initialization, the model does not have any assumption about the data, therefore the weights can explode or vanish in a particular case. One good way is to assign the weights from a Gaussian distribution. Obviously this distribution would have zero mean and some finite variance. Let us consider a linear neuron:
  
 $$
 \begin{aligned}
@@ -96,7 +96,7 @@ $$
 - Xavier initialization is more effective for models with sigmoid activation function. [More here ...](https://prateekvjoshi.com/2016/03/29/understanding-xavier-initialization-in-deep-neural-networks/)
 
 
-- He initialization is particularly suited for networks with ReLU activation functions. ReLU tends to zero out negative inputs, which can lead to a loss of variance in the network. To address this, normal He initialization sets the variance of the weights to be twice as large as Glorot Initialization as follows:
+- **He initialization** is particularly suited for networks with ReLU activation functions. ReLU tends to zero out negative inputs, which can lead to a loss of variance in the network. To address this, normal He initialization sets the variance of the weights to be twice as large as Glorot Initialization as follows:
 
 
 $$
@@ -233,7 +233,7 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
  <img src="./img/cdf.PNG" width="550">
 
 ## Comparing Distributions 
-  - KL Divergence measures how one reference probability distribution $P$ is different from a second probability distribution $Q$. Mathematically, it is defined as
+  - **KL Divergence** measures how one reference probability distribution $P$ is different from a second probability distribution $Q$. Mathematically, it is defined as
 
 $$
 \begin{aligned}
@@ -244,7 +244,7 @@ $$
 
 - With KL divergence can calculate exactly how much information is lost approximating one distribution with another. [More here ...](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
 
-- KS test statistic decides whether two random samples have the same statistical distribution.  For a given cumulative distribution function $F(x)$, Kolmogorov–Smirnov is mathematically defined as
+- **KS test statistic** decides whether two random samples have the same statistical distribution.  For a given cumulative distribution function $F(x)$, Kolmogorov–Smirnov is mathematically defined as
 
 $$
 \begin{aligned}
