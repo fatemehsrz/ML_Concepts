@@ -272,6 +272,10 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
 ## Convex vs non-Convex Optimization Problem
  - soon  ...
  
+## Right-skewed vs Left-skewed Distribution
+
+## PDF vs CDF
+
 
 
 ## Comparing Distributions 
