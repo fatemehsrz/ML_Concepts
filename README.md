@@ -226,11 +226,11 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
  
 ## Right-skewed vs Left-skewed Distribution
 
- <img src="./img/left-right.jpg" width="650">
+ <img src="./img/left-right.jpg" width="550">
 
 ## PDF vs CDF
 
- <img src="./img/cdf.PNG" width="650">
+ <img src="./img/cdf.PNG" width="550">
 
 ## Comparing Distributions 
   - KL Divergence measures how one reference probability distribution $P$ is different from a second probability distribution $Q$. Mathematically, it is defined as
@@ -295,7 +295,7 @@ $$
 ## High Bias vs High Variance
  - soon  ...
  
-  <img src="./img/bias2.png" width="600">
+  <img src="./img/bias2.png" width="560">
  
 ## Convex vs non-Convex Optimization Problem
  - soon  ...
