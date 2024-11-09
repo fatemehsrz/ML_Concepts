@@ -274,9 +274,11 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
  
 ## Right-skewed vs Left-skewed Distribution
 
+ <img src="./imgleft-right.jpg" width="650">
+
 ## PDF vs CDF
 
-
+ <img src="./img/cdf.png" width="650">
 
 ## Comparing Distributions 
   - KL Divergence measures how one reference probability distribution $P$ is different from a second probability distribution $Q$. Mathematically, it is defined as
