@@ -263,6 +263,7 @@ $$
 ## Dimensionality Reduction
 
  - PCA
+ - Kernel PCA
  - LDA
  - tSNE
  - UMAP
