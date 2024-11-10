@@ -243,7 +243,7 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
 
 $$
 \begin{aligned}
-D_{kl}(P||Q)=  \Sigma \log \frac{P(x)}{Q(x)}
+D_{kl}(P \parallel Q)=  \Sigma \log \frac{P(x)}{Q(x)}
 \end{aligned}
 $$
 
