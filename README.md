@@ -234,6 +234,9 @@ For example,  given a dataset of coin flips, we can calculate the likelihood of 
 
  <img src="./img/left-right.jpg" width="550">
 
+## Power in Statistics 
+- $P(Rejecting H_0|~H_0)$ the probability of rejecting null hypothesis, the large power, the lower overlap beween samples (control and variant group)
+
 ## PDF vs CDF
 
  <img src="./img/cdf.PNG" width="550">
